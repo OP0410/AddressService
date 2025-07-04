@@ -1,13 +1,16 @@
 server:
   port: 8088
+
 spring:
   application:
     name: AddressService
+
   datasource:
     url: jdbc:postgresql://dpg-d1jnik2li9vc738gn75g-a.oregon-postgres.render.com:5432/opps_xdm7
     username: opps_xdm7_user
     password: CjurCUJIut7FWb0im1ztKm8AftH1dWzq
     driver-class-name: org.postgresql.Driver
+
   jpa:
     show-sql: true
     hibernate:
